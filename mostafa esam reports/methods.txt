@@ -1,0 +1,43 @@
+comparsion bet HTTP Methods :-
+
+
+HTTP POST request:
+We use POST to create a new resource. A POST request requires a body in which you define the data of the entity to be created.
+A successful POST request would be a 200 response code. In our weather app, we could use a POST method to add weather data about a new city.
+
+A POST request also sends data to an API, either creating or updating an existing resource. POST is like a contact form on a website. When you fill out the form and hit Send, that data is put in the body of the request and sent to the server. This may be JSON, XML, or query parameters.  
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP GET request:
+We use GET to read or retrieve a resource. A successful GET returns a response containing the information you requested.
+In our weather app, we could use a GET to retrieve the current weather for a specific city.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP PUT request
+We use PUT to modify a resource. PUT updates the entire resource with data that is passed in the body payload. If there is no resource that matches the request, it will create a new resource.
+
+In our weather app, we could use PUT to update all weather data about a specific city.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTTP DELETE request
+We use DELETE to delete a resource. In our weather app, we could use DELETE to delete a city we no longer wanted to track for some reason.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+difference between PUT and POST?
+
+PUT requests are idempotent, meaning that executing the same PUT request will always produce the same result.
+
+On the other hand, a POST will produce different outcomes. If you execute a POST request multiple times, you'll create a new resource multiple times despite them having the same data being passed in.
+
+Using a restaurant analogy, POSTing multiple times would create multiple separate orders, whereas multiple PUT requests will update the same existing order.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+summary:
+
+GET request- This operation reads information from a record in the database.  
+PUT request- This operation changes a record's information in the database.  
+POST request - This operation creates a new record in the database. 
+DELETE request- This operation removes a record from the database.  
+

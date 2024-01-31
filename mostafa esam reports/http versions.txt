@@ -1,0 +1,44 @@
+comparsion bet different versions of http :-
+
+
+cHTTP Version 1.0:
+HTTP 1.0, released in 1996, marked a significant evolution from its predecessor, version 0.9. It introduced key features such as the HTTP header, enabling the transmission of metadata for flexibility and extensibility. Other improvements included versioning in requests, status codes in responses for request processing feedback, the Content-Type field for transmitting various document types, and the addition of new methods like POST and HEAD, making HTTP more robust.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTTP Version 1.1:
+Released in 1997, HTTP 1.1 enhanced the protocol further. Notable improvements included the mandatory Host header for routing through proxy servers, persistent connections to execute multiple requests over a single connection, the continue status code for handling unprocessable requests, and the addition of new methods like PUT, PATCH, DELETE, CONNECT, TRACE, and OPTIONS. HTTP 1.1 also introduced features such as compression, multi-language support, and byte-range transfers.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP Version 2.0:-
+
+Officially released in 2015, HTTP 2.0 focused on performance improvements. It introduced features like request multiplexing, enabling asynchronous requests and responses over a single connection, request prioritization for specifying response order, automatic GZip compression, connection reset functionality, and server push to proactively send predicted resources to the client cache. HTTP 2.0 became a binary protocol, addressing issues and limitations of previous versions.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP Version 3.0:-
+
+HTTP 3.0, an Internet-Draft as of 2020, differs from previous versions by using the QUIC transport layer protocol instead of TCP. QUIC provides native multiplexing, built-in encryption, and a quick handshake process, addressing latency issues in lossy and slow connections. One significant feature of HTTP 3.0 is that it always creates encrypted connections, similar to the constant use of HTTPS in HTTP 2.0.
+-------------------------------------------------------------------------------------------------------------------------
+
+Common HTTP status code classes:
+1xxs – Informational responses: The server is thinking through the request.
+
+2xxs – Success! The request was successfully completed and the server gave the browser the expected response.
+
+3xxs – Redirection: You got redirected somewhere else. The request was received, but there’s a redirect of some kind.
+
+4xxs – Client errors: Page not found. The site or page couldn’t be reached. (The request was made, but the page isn’t valid — this is an error on the website’s side of the conversation and often appears when a page doesn’t exist on the site.)
+
+5xxs – Server errors: Failure. A valid request was made by the client but the server failed to complete the request.
+
+
+HTTP Status Code 200 - OK
+HTTP Status Code 301 - Permanent Redirect
+HTTP Status Code 302 - Temporary Redirect
+HTTP Status Code 404 - Not Found
+HTTP Status Code 410 - Gone
+HTTP Status Code 500 - Internal Server Error
+HTTP Status Code 503 - Service Unavailable
+
+
+
+
+
+
